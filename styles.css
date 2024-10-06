@@ -1,0 +1,446 @@
+:root {
+    --header-color: #1F1F1F;
+    --body-color: #545454;
+}
+
+
+.handel-img {
+    width: 507px;
+
+
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+.header {
+
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: left;
+    color: var(--header-color);
+
+
+}
+
+.header-p {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.7;
+    text-align: left;
+    color: var(--body-color);
+}
+
+.items {
+    margin-top: 60px;
+
+}
+
+.Start-Prj-btn {
+    width: 200px;
+    font-size: 28px;
+    margin-top: 60px;
+}
+
+.project-details-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 767px;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    margin-left: 43px;
+}
+
+.vertical-flex-container {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.card-container {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    width: 206px;
+    height: 187px;
+    border: 2px solid #1f1f1f;
+    border-radius: 4px;
+}
+
+.center-image-container {
+    width: 638px;
+    border-radius: 4px 0px 0px 0px;
+    flex: 0 0 auto;
+    align-self: center;
+    margin-top: -156px;
+    margin-left: -69px;
+    position: relative;
+    /* Add position relative to the main image container */
+    z-index: 1;
+    /* Set z-index to 1 to ensure it's behind the arrow */
+}
+
+.image-container-bottom-aligned {
+    flex: 0 0 auto;
+    align-self: flex-end;
+    margin-top: -151px;
+    position: relative;
+    /* Ensure it's positioned relative */
+    z-index: 2;
+    /* Set z-index to 2 to appear in front */
+}
+
+.image-container-with-clipped-border {
+    position: relative;
+    /* Add position relative to main image */
+}
+
+.image-container {
+    box-sizing: border-box;
+    display: block;
+    width: 151px;
+    max-width: initial;
+    height: 151px;
+    position: relative;
+    z-index: 3;
+    /* Make sure arrow is the topmost */
+}
+
+/********************service***********************/
+.service-section-border {
+    border-top: 3px solid #1f1f1f;
+
+    width: 65px;
+}
+
+.service-title-style {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--header-color);
+}
+
+.service-item img {
+    width: 50px;
+    height: 50px;
+}
+
+.service-item h3 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: var(--header-color);
+}
+
+.service-item p {
+    font-size: 18px;
+    color: var(--body-color);
+    margin-top: 10px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+/***********************************************************************************/
+
+.Brilliance-contant h2 {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.4;
+    text-align: left;
+    color: var(--header-color);
+
+}
+
+.Brilliance-contant p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.3;
+    text-align: left;
+    color: var(--body-color);
+    margin-bottom: 40px;
+}
+
+.plus-icon {
+    font-size: 24px;
+}
+
+.btn {
+    border-radius: 0;
+    border: none;
+}
+
+.learn-more-btn {
+    font-size: 1.5rem;
+    font-weight: 500;
+    box-sizing: border-box;
+    width: 200px;
+}
+
+.list-unstyled li h5 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.list-unstyled li p {
+    font-size: 1rem;
+}
+
+
+.step-icon {
+    width: 72px;
+    height: 72px;
+}
+
+.vertical-line {
+    border-left: 3px solid #9B9B9B;
+    height: 102px;
+    margin-left: 35px;
+
+    margin-top: 15px;
+}
+
+.Dream-contant {
+    margin-top: -68px;
+
+}
+
+.Dream-contant h2 {
+    font-weight: 700;
+    padding-bottom: 40px;
+    color: var(--header-color);
+}
+
+.Dream-contant h5 {
+    font-weight: 500;
+    color: var(--header-color);
+    padding-bottom: 10px;
+}
+
+.Dream-contant p {
+    letter-spacing: 1.2px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+/***********************************************************/
+.testimonial-container3 {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    width: 711px;
+}
+
+.hero-image-container {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    max-width: initial;
+    height: 711px;
+    clip-path: path("M707,0h-703c-2.20914,0 -4,1.79088 -4,4.00002v702.99998c0,2.209 1.79087,4 4.00001,4h216.99999c2.209,0 4,-1.791 4,-4v-515.5c0,-2.209 1.791,-4 4,-4h478c2.209,0 4,-1.791 4,-4v-179.5c0,-2.20914 -1.791,-4 -4,-4z");
+    object-fit: cover;
+}
+
+.image-container2 {
+    box-sizing: border-box;
+    display: block;
+    width: 73px;
+    max-width: initial;
+    height: 73px;
+}
+
+.image-container-with-margin {
+    box-sizing: border-box;
+    display: block;
+    width: 73px;
+    max-width: initial;
+    height: 73px;
+    margin-left: 38px;
+}
+
+.testimonial-container2 {
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    margin-left: -454px;
+}
+
+.testimonial-heading {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    align-self: flex-end;
+    max-width: 600px;
+    margin-left: -35px;
+    margin-right: 150px;
+    font: 600 58px Inter, sans-serif;
+    color: var(--header-color);
+    text-align: left;
+}
+
+.testimonial-container4 {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    gap: 57px;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-right: 5px;
+    margin-top: 78px;
+
+}
+
+.testimonial-card {
+    flex: 1 1 0;
+}
+
+.testimonial-container {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 600px;
+    padding: 43px 55px 116px;
+    background: var(--header-color);
+    border-radius: 4px;
+}
+
+.testimonial-quote {
+    padding: 0;
+    margin: 0;
+    font: 500 150px Inter, sans-serif;
+    color: white;
+}
+
+.testimonial-text {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: -43px;
+    font: 500 24px/40px Inter, sans-serif;
+    color: white;
+    text-align: left;
+
+}
+
+.testimonial-container1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 70px;
+
+}
+
+.profile-image-container {
+    box-sizing: border-box;
+    display: block;
+    width: 72px;
+    max-width: initial;
+    height: 72px;
+}
+
+.profile-card {
+    flex: 0 0 auto;
+    padding-top: 3px;
+    margin-left: 23px;
+
+}
+
+.header-title {
+    padding: 0;
+    margin: 0;
+    font: 600 24px Inter, sans-serif;
+    color: white;
+}
+
+.location-info-text-style {
+    padding: 0;
+    margin: 0;
+    margin-top: 14px;
+    font: 500 20px Inter, sans-serif;
+    color: #929292;
+}
+
+/**********************************************************/
+/* Custom styles for the newsletter section */
+.newsletter-section {
+    display: block;
+    text-align: center;
+    padding: 3rem 1rem 0rem 1rem;
+    align-items: center;
+    width: 65%;
+
+}
+
+.newsletter-section h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    margin-bottom: 15px;
+}
+
+.newsletter-section p {
+    color: #777;
+    margin-bottom: 2rem;
+    font-size: 28px;
+    line-height: 1.7;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.newsletter-input-group {
+    max-width: 600px;
+    margin: 0 auto;
+    border: 4px solid #fff;
+    bottom: -67px;
+}
+
+
+/* Footer custom styles */
+footer {
+    background-color: var(--header-color);
+    color: white;
+    padding: 2rem 0;
+    width: 1728px;
+    height: auto;
+    padding-bottom: 100px;
+
+}
+
+.footer-p {
+    color: #b5b5b5;
+    width: 322px;
+    height: 99px;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33.15px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+footer a,
+.social-icons a {
+    color: #b5b5b5;
+    text-decoration: none;
+}
+
+footer a:hover,
+.social-icons a:hover {
+    color: #fff;
+}
+
+.social-icons a {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+footer h5 {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+footer p {
+    font-size: 22px;
+}
